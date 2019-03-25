@@ -53,6 +53,7 @@ public class StepDefHJotel {
 		driver.navigate().to("file://///ndafile/GLC-G102/BDD/Selenium/hotelbooking.html");
 		driver.manage().timeouts().implicitlyWait(70, TimeUnit.SECONDS);
 		Thread.sleep(1000);
+	
 		driver.close();
 	}
 
